@@ -1,0 +1,244 @@
+/*logo*/
+#logo{
+	height:100px ;
+	width: 100%;
+	background: #F4F4F4;
+	position: relative;
+}
+#logo .logo{
+	width:1200px ;
+	height: 80px;
+	border-bottom: 1px solid #ddd;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: 48px;
+	margin-top: 14px;
+	margin-left: 30px;
+}
+.logo div{
+	float: right;
+}
+.logo .logo_right{
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    color: #fff;
+    text-align: center;
+    background: #ddd;
+    float: left;
+    margin-left: 130px;
+    margin-top: 18px;
+    border-radius: 100%;
+}
+.logo .logo_right span{
+	display: block;
+	height: 20px;
+	width: 70px;
+	color: #000;
+	margin-left: -24px;
+}
+#logo .logo .check{
+	background: #ff4466;
+}
+#logo .logo .check span{
+	color: #ff4466;
+}
+/*main*/
+#main{
+	width: 100%;
+	height: auto;
+	background: #F4F4F4;
+}
+#main .main{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+}
+/*选项卡*/
+#main .main .goods_nav{
+	width: 1200px;
+	height:65px;
+	margin: 0 auto;
+	line-height:65px ;
+	border-bottom: 1px solid #ddd;
+}
+.main .goods_nav li{
+	width:110px ;
+	height:35px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	border-radius: 6px;
+	margin-left: 10px;
+	/*background: #000;*/
+}
+/*.kucun{
+	disabled:true;
+}*/
+/*选项卡  商品选项*/
+.goods{
+	width:100% ;
+	margin: 0 auto;
+	height: auto;
+	/*display: none;*/
+}
+.goods_lists .tou,.goods_lists .count,.goods_lists .goods_detail{
+	width: 1200px;
+	margin: 0 auto;
+	border-top:1px solid #ddd;
+	/*border-bottom:1px solid #ddd;*/
+}
+.goods_lists .tou{
+	height: 106px;
+}
+.goods_lists .tou li{
+	float: left;
+	width:80px ;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 48px;
+	margin-left: 95px;
+}
+.goods_lists .goods_detail{
+	height: 115px;
+}
+.goods_lists .count{
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	
+}
+.goods_lists .count .count_left{
+	float: left;
+	padding-left: 30px;
+}
+.goods_lists .count .count_left a{
+	width: 50px;
+	margin-left: 20px;
+}
+
+.goods_lists .count .count_right{
+	float: right;
+	height: 50px;
+}
+.goods_lists .count .count_right b{
+	font-weight: normal;
+}
+.goods_lists .count .count_right em{
+	font-weight: bold;
+	font-style: normal;
+	color: #f13e3a;
+	font-size: 22px;
+}
+.goods_lists .count .count_right .go{
+	display: inline-block;
+	width:155px ;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	background: #d8d8d8;
+	font-size: 20px;
+}
+/*选项卡  优惠选项*/
+.youhui{
+	width:100% ;
+	margin: 0 auto;
+	height: auto;
+	display: none;
+}
+.jinzhang{
+	width:100% ;
+	margin: 0 auto;
+	height: 1000px;
+	display: none;
+}
+/*footer*/
+#footer{
+	width:100% ;
+	height: 142px;
+	background: #f4f4f4;
+	color: #999;
+}
+#footer .footer{
+	width:700px ;
+	height:70px ;
+	padding-top: 30px;
+	padding-left: 400px;
+}
+#footer .footer p{
+	width:480px ;
+	line-height: 30px;
+	text-align: center;
+}
+#footer .footer .footer_pic{
+	width:550px ;
+	padding-top: 16px;
+	height: 28px;
+	text-align: center;
+}
+#footer .footer .footer_pic a{
+	display: inline-block;
+	height: 28px;
+	float: left;
+	vertical-align: top;
+}
+#footer .footer .footer_pic .pic_one{
+	width: 80px;
+	background: url("../img/index/index(19).png") no-repeat 0 -50px;
+}
+#footer .footer .footer_pic .pic_two{
+	width: 74px;
+	background: url("../img/index/index(19).png") no-repeat -90px -50px ;
+}
+#footer .footer .footer_pic .pic_three{
+	width: 50px;
+	background: url("../img/index/index(19).png") no-repeat -178px -50px ;
+}
+#footer .footer .footer_pic .pic_four{
+	width: 164px;
+	background: url("../img/index/index(19).png") no-repeat -240px -50px ;
+}
+#footer .footer .footer_pic .pic_five{
+	width: 84px;
+	background: url("../img/index/index(19).png") no-repeat -400px -50px ;
+}
+#footer .footer .footer_pic .pic_six{
+	width: 50px;
+	background: url("../img/index/index(19).png") no-repeat -486px -50px ;
+}
+.num1{
+	width: 20px;
+	height: 20px;
+	background: #ececec;
+	border: 1px solid #999;
+	float: left;
+	cursor: pointer;
+}
+.kucun{
+    cursor: not-allowed;
+}
+.del{
+	cursor: pointer;
+}
+.goods_detail input{
+	float: left;
+}
+.goods_detail img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: -30px;
+	margin-left: 20px;
+}
+.goods_lists .goods_detail .name{
+	margin-top: 8px;
+}
+.choose{
+	background:#333 ;
+	color: #fff;
+}

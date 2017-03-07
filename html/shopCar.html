@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>shopCar</title>
+	<link rel="icon" href="http://s16.mogucdn.com/new1/v1/bmisc/3ce382db3c8aaca5d07bd36711e77134/171169993508.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="../css/common/common.css">
+	<link rel="stylesheet" href="../css/common/header.css" />
+	<link rel="stylesheet" href="../css/common/right.css" />
+	<link rel="stylesheet" href="../css/shopCar.css" />
+</head>
+<body>
+	<!--subnav start--><div id="subnav"></div><!--subnav stop-->
+	<div id="logo"><!--logo start-->
+		<div class="logo">
+			<a href="index.html">
+				<img src="../img/index/index (13).png" />
+			</a>
+			<div>
+				<i class="logo_right check">
+					1
+					<span>购物车</span>
+				</i>
+				<i class="logo_right">
+					2
+					<span>确认订单</span>
+				</i>
+				<i class="logo_right">
+					3
+					<span>支付</span>
+				</i>
+				<i class="logo_right">
+					4
+					<span>完成</span>
+				</i>
+			</div>
+		</div>
+	</div><!--logo stop-->
+	<div id="main"><!--main start-->
+		<div class="main">
+			<ul class="goods_nav">
+				<li class="choose">商品详情<span>(1)</span></li>
+				<li>优惠<b>(0)</b></li>
+				<li class="kucun">库存紧张(0)</li>
+			</ul>
+			<div class="goods"><!-- 商品开始 -->
+				<ul class="goods_lists">
+					<li>
+						<ul class="tou">
+							<li><!-- <input type="checkbox"/> -->商品</li>
+							<li>商品信息</li>
+							<li>单价(元)</li>
+							<li>数量</li>
+							<li>小计</li>
+							<li>操作</li>
+						</ul>
+					</li>
+					<div class="xiangqing">
+						
+					</div>
+					<!-- <li class="goods_detail">
+						<div>
+							<ul class="tou">
+								<li>
+									<input type="checkbox"/>
+									<img src="aaa">
+								</li>
+								<li class="name">data[key].name</li>
+								<li>data[key].price</li>
+								<li>
+									<span class="num1 jian">-</span>
+									<span class="num1 geshu">0</span>
+									<span class="num1 jia">+</span>
+								</li>
+								<li class="xiaoji">num*data[key].price</li>
+								<li class="del">删除</li>
+							</ul>
+						</div>
+					</li>
+					<li class="goods_detail">
+						<div>
+							
+						</div>
+					</li>
+					
+					<li class="goods_detail">
+						<div>
+							
+						</div>
+					</li> -->
+					<li class="count">
+						<div class="count_left">
+							<input type="checkbox" id="all" />全选
+							<a>删除</a>
+							<a>清空失效列表</a>
+							<a>移入收藏夹</a>
+						</div>
+						<div class="count_right">
+							<b>共有<span>0</span>件商品，总计：</b>
+							<em>￥0.00</em>
+							<a class="go">去付款></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="youhui"><!--优惠选项 开始-->
+				<ul class="goods_lists">
+					<li>
+						<ul class="tou">
+							<li><input type="checkbox"/>商品</li>
+							<li>商品信息</li>
+							<li>单价(元)</li>
+							<li>优惠</li>
+							<li>小计</li>
+							<li>操作</li>
+						</ul>
+					</li>
+					<!-- <li class="goods_detail">
+						<div>
+							<ul class="tou">
+								<li><input type="checkbox"/>图片</li>
+								<li>data[key].name</li>
+								<li>data[key].price</li>
+								<li>
+									<span class="num1 jian">-</span>
+									<span class="num1 geshu">0</span>
+									<span class="num1 jia">+</span>
+								</li>
+								<li class="xiaoji">num*data[key].price</li>
+								<li class="del">删除</li>
+							</ul>
+						</div>
+					</li>
+					<li class="goods_detail">
+						<div>
+							
+						</div>
+					</li>
+					
+					<li class="goods_detail">
+						<div>
+							
+						</div>
+					</li> -->
+					<li class="count">
+						<div class="count_left">
+							<input type="checkbox" />全选
+							<a>删除</a>
+							<a>清空失效列表</a>
+							<a>移入收藏夹</a>
+						</div>
+						<div class="count_right">
+							<b>共有<span>0</span>件商品，总计：</b>
+							<em>￥0.00</em>
+							<a class="go">去付款></a>
+						</div>
+					</li>
+				</ul>
+			</div><!--优惠选项  结束-->
+			<div class="jinzhang"></div>
+		</div>
+	</div><!--main stop-->
+	<div id="footer"><!--footer start-->
+		<div class="footer">
+			<p>
+				<a href="index.html">蘑菇街</a>|
+				<a href="##">加入开放平台 © 2016 Mogujie.com,All Rights Reserved. </a>
+			</p>
+			<div class="footer_pic">
+				<a class="pic_one"></a>
+				<a class="pic_two"></a>
+				<a class="pic_three"></a>
+				<a class="pic_four"></a>
+				<a class="pic_five"></a>
+				<a class="pic_six"></a>
+			</div>
+		</div>
+	</div><!--footer stop-->
+	<!--right start--><div id="right"></div><!--right stop-->
+	
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../js/common/tools.js" ></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	
+	<script>
+		loadHtml("common/header.html","subnav");
+		loadHtml("common/right.html","right");
+	</script>
+	<script src="../js/common/nav.js"></script>
+	<script src="../js/shopCar.js"></script>
+</body>
+</html>

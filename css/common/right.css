@@ -1,0 +1,81 @@
+/*right*/
+#right{
+	padding: 4px 4px 0;
+	text-align: center;
+	position: fixed;
+	height: 100%;
+	z-index: 9999;
+	top: 0;
+	width: 30px;
+	right: 0;
+	color: #fff;
+	font-size: 12px;
+	background: #202020;
+}
+#right div{
+	color: #fff;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+	padding: 4px 4px 0;
+	text-align: center;
+}
+#right div a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	line-height: 15px;
+	border-bottom: 1px solid rgba(221,221,221,.6);
+	padding-bottom: 12px;
+}
+#right i{
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+#right .right_one i{
+	background: url("../../img/index/index(20).png") no-repeat -4px 0;
+}
+#right .right_two i{
+	background: url("../../img/index/index(20).png") no-repeat  -4px -30px;
+}
+#right .right_three i{
+	background: url("../../img/index/index(20).png") no-repeat -4px -90px;
+}
+#right .right_four i{
+	background: url("../../img/index/index(20).png") no-repeat -4px -60px;
+}
+#right .totop{
+	display: none;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	background: #202020;
+	bottom: -500px;
+	width: 22px;
+	height: 30px;
+}
+#right .totop i{
+	background: url("../../img/index/index(20).png") no-repeat -3px -150px;
+	color: #fff;
+	width: 22px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 15px;
+	border-bottom: none;
+	border-top: 1px solid rgba(221,221,221,.6);
+	padding-top: 0;
+	padding-bottom: 0;
+	position: absolute;
+	margin-top: -4px;
+}
+#right div:hover{
+	color: #fff;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+	padding: 4px 4px 0;
+	text-align: center;
+	background: #ef2f23;
+}
